@@ -72,6 +72,7 @@
   color: red;
 }
 
+/* service -container */
 .service-container {
   /* width: 100%; */
   height: 100vh;
@@ -162,4 +163,34 @@
 }
 .service-left-container {
   width: 50%;
+}
+
+.call-icon {
+  width: 90px;
+}
+
+.phone-call {
+  display: flex;
+}
+
+.appointment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  background-color: red;
+  padding: 10px;
+  color: white;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: -70px;
+}
+
+.app-desc {
+  width: 75%;
+}
+
+.app-btn {
+  border-radius: 25px;
+  padding: 10px 50px;
 }
